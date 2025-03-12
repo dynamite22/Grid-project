@@ -1,0 +1,243 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+@font-face{
+    font-family: dmsans;
+    src: url(fonts/DMSans-VariableFont_opsz\,wght.ttf);
+}
+body{
+    /* text-align: left; */
+    font-family: dmsans;
+    background: hsl(0, 0%, 90%);
+}
+img{
+    max-width: 50px;
+}
+#content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+#content >*{
+    border-radius: 10px;
+}
+.create{
+    background: hsl(31, 66%, 93%);
+    grid-row: 1/3;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 30px 20px;
+    line-height: 22px;
+    padding-top: 50px;
+    letter-spacing: -2px;
+}
+.quick{
+    font-size: 23px;
+    font-weight: 500;
+    color: hsl(256, 67%, 59%);
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    
+}
+.one{
+    position: relative;
+    top: 20px;
+    max-width: 130px;
+    display: block;
+}
+.media{
+    font-size: 32px;
+    font-weight: 500;
+    background: hsl(256, 67%, 59%);
+    color: hsl(0, 0%, 100%);
+    grid-column: 2/4;
+    padding: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 40px;
+    /* padding-bottom: 60px; */
+}
+.two{
+    position: relative;
+    left: 95px;
+    top: 17px;
+    max-width: 110px;
+    display: block;
+}
+.ten{
+    color: hsl(39, 100%, 71%);
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+.faster{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-style: italic;
+}
+.over{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    position: relative;
+    top: 10px;
+}
+.schedule{
+    height: 300px;
+    background: hsl(254, 88%, 90%);
+    grid-column: 4/5;
+    grid-row: 1/4;
+    padding: 40px 0;
+    padding-left: 27px;
+    padding-right: 0;
+    font-size: 19px;
+    font-weight: 503;
+    line-height: 16px;
+}
+.social{
+    margin: 0;
+    padding: 0;
+    letter-spacing: -0.99px;
+    font-weight: 570;
+}
+.three{
+    max-width: 145px;
+    position: relative;
+    right: 0px;
+    top: 12px;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+.optimize{
+    position: relative;
+    top: 20px;
+    margin: 0;
+    padding-right: 4px;
+    font-size: 10px;
+}
+.ai{
+    background: hsl(39, 100%, 71%);
+    grid-row: 3/5;
+    padding: 15px;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -2px;
+}
+.four{
+    padding: 0;
+    max-width: 140px;
+    position: relative;
+    top: 50px;
+    display: block;
+}
+.manage{
+    height: 170px;
+    background: hsl(0, 0%, 100%);
+    padding: 10px;
+    grid-row: 2/4;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -2px;
+    padding-top: 0;
+}
+.five{
+    padding: 0;
+    margin: 0;
+    max-width: 150px;
+    display: block;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 20px;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+.multiple{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+}
+.posting{
+    background: hsl(39, 100%, 71%);
+    grid-column: 3/4;
+    grid-row: 2/4;
+    height: 150px;
+    padding: 15px;
+    grid-row: 2/4;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -1px;
+}
+.six{
+    display: block;
+    max-width: 140px;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+    position: relative;
+    left: 2px;
+    top: 22px;
+}
+.growth{
+    background: hsl(0, 0%, 100%);
+    padding: 20px;
+    grid-row: 4/5;
+    grid-column: 2/3;
+    font-size: 40px;
+    font-weight: 500;
+}
+.audience{
+    font-size: 10px;
+}
+.seven{
+    max-width: 125px;
+    position: relative;
+    top: 15px;
+}
+.followers{
+    height: 150px;
+    padding: 15px 15px;
+    color: hsl(0, 0%, 100%);
+    background: hsl(256, 67%, 59%);
+    grid-row: 4/5;
+    grid-column: 3/5;
+    font-size: 25px;
+    font-weight: 500;
+}
+.with{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    position: relative;
+    bottom: 70px;
+    
+}
+.non{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    left: 156px;
+    bottom: 80px;
+}
+.melt{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    position: relative;
+    right: 16px;
+    bottom: 60px;
+}
+.eight{
+    display: inline;
+    max-width: 150px;
+    position: relative;
+    top: 12px;
+}
